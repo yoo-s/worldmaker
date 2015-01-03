@@ -1,0 +1,131 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: url("http://i.imgur.com/HktC6yL.jpg") no-repeat fixed;
+	background-size: cover;
+	background-position: right;
+	padding: 50px;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	color: #e6e6fa;
+}
+
+body h3, p {
+	padding-left: 60px;
+	color: #f0f8ff;
+}
+
+img {
+	border-style: solid ridge;
+	border-width: 10px;
+	border-color: #4b0082;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 90px;
+}
+
+ul li {
+	list-style-type: square;
+}
+
+#textlink {
+	font: normal 20px/100% Verdana, Tahoma, sans-serif;
+	color: white;
+}
+
+#textlink:hover {
+	color: black;
+	text-decoration: none;
+	text-shadow: #cc88ff 0.2em 0.2em 0.5em;
+}
+
+h1 {
+	font-size: 40px;
+	color: #f0f8ff;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	text-shadow: #cc88ff 0.1em 0.1em 0.2em;
+}
+
+caption {
+	font-size: 20px;
+	font-family: 'trebuchet ms';
+}
+
+table {
+	color: #fff5ee;
+	font-family: sans-serif;
+}
+
+td {
+	padding: 40px;
+}
+
+#clickie {
+	color: #87cefa;
+}
+
+#menu {
+	border-image: url(http://i.imgur.com/YyJS58z.png) 100 120 stretch;
+	border-width:20px;
+	border-color: #4b0082;
+	background-color: transparent;
+}
+
+.links {
+	position: relative;
+	text-align: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.links li {
+	padding: 10px 40px;
+	display: inline;
+	float: left;
+	background-color: black;
+}
+
+#home {
+	padding: 10px 40px;
+	display: inline;
+	float: right;
+	background-color: transparent;
+}
+
+.links li a {
+	padding: 10px;
+	display: inline;
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+	color: #f0f8ff;
+}
+
+.links li a:hover {
+	padding: 10px;
+	color: #000000;
+	text-decoration: none;
+	text-shadow: #cc88ff 0.1em 0.1em 0.2em;
+}
+
+#button {
+	padding: 0px;
+	border-style: none;
+	width: 40px;
+}
+
+#button:hover {
+	box-shadow: #7b68ee 0.2em 0.2em 0.5em;
+}
