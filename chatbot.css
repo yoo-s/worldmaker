@@ -1,0 +1,46 @@
+body {
+	background: url("http://i.imgur.com/vb9uCm7.png") no-repeat fixed;
+	background-size: cover;
+	background-position: right;
+	padding: 50px;
+}
+
+p {
+	font: normal 20px/100% Verdana, Tahoma, sans-serif;
+	color: white;
+}
+
+input {
+	padding: 20px;
+	border: solid 2px #7b68ee;
+	outline: 0;
+	font: normal 20px/100% Verdana, Tahoma, sans-serif;
+	width: 600px;
+	background: -webkit-gradient(linear, left top, left 50, from(#FFFFFF), color-stop(4%, #abc0ff), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #abc0ff 1px, #FFFFFF 50px); 
+	box-shadow: rgba(255,255,255, 0.15) 0px 0px 8px;
+	-moz-box-shadow: rgba(255,255,255, 0.15) 0px 0px 8px;
+	-webkit-box-shadow: rgba(255,255,255, 0.15) 0px 0px 8px;
+	-webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+
+}
+
+input:hover, input:focus {
+	border-color: #7b68ee;
+	box-shadow: rgba(255,255,255, 1.0) 2px 1px 8px;
+	-moz-box-shadow: rgba(255,255,255, 1.0) 2px 1px 8px;
+	-webkit-box-shadow: rgba(255, 255, 255, 1.0) 2px 1px 8px; 
+}
+
+#submit {
+	width: 200px;
+	padding: 20px 20px;
+	background: -webkit-gradient(linear, left top, left 50, from(#FFFFFF), color-stop(4%, #abc0ff), to(#FFFFFF)); 
+    background: -moz-linear-gradient(top, #FFFFFF, #abc0ff 1px, #FFFFFF 50px); 
+	border: solid 2px #7b68ee;
+	font-size: 24px;
+	color: black;
+	-webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+}
