@@ -7,10 +7,12 @@ Layout plan ----------------------------------------------------
 Background art
 Logo
 Title?
-Menu - Code, Art, Music, Games, Contact
+Vertical navigation bar on left
+Buttons - White bg, engraved icons, can be retinted different colors
 
-Code - 
-Art - world concepts, character designs
-Music - game soundtracks, story soundtracks
-Games - finished, in development, scrapped
-Contact - 
+Portfolio - Button for each project category
+
+Code (terminal?) - 
+Art (pen)- world concepts, character designs
+Music (music note)- game soundtracks, story soundtracks
+Games (controller)- finished, in development, scrapped
