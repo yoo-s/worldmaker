@@ -5,7 +5,7 @@
 }
 
 html, body, p{
-    background: url("http://i.imgur.com/vb9uCm7.png") no-repeat fixed;
+    background: url("http://i.imgur.com/OqFXSeV.png") no-repeat fixed;
     /*background: url("http://i.imgur.com/HktC6yL.jpg") no-repeat fixed;*/
     background-size: cover;
     background-position: right;
@@ -35,7 +35,7 @@ html, body, p{
 #navigationMenu span{
     /* Container properties */
     width:0;
-    left:38px;
+    left:39px;
     padding:0;
     position:absolute;
     overflow:hidden;
@@ -46,7 +46,7 @@ html, body, p{
     font-weight:bold;
     letter-spacing:0.6px;
     white-space:nowrap;
-    line-height:39px;
+    line-height:40px;
     
     /* CSS3 Transition: */
     -webkit-transition: 0.25s;
@@ -57,10 +57,8 @@ html, body, p{
 }
 
 #navigationMenu a{
-    background:url('img/navigation.jpg') no-repeat;
-
-    height:39px;
-    width:38px;
+    height:40px;
+    width:40px;
     display:inline-block;
     position:relative;
 }
@@ -77,24 +75,24 @@ html, body, p{
     box-shadow:0 0 5px #9ddff5;
 }
 
-/* Green Button */
+/* Home Button */
 
-#navigationMenu .home { background-position:0 0;}
-#navigationMenu .home:hover {   background-position:0 -39px;}
+#navigationMenu .home { background: url("http://i.imgur.com/pW5RZ0I.png"); background-size: 40px}
+#navigationMenu .home:hover {background: url("http://i.imgur.com/40PzIXN.png"); background-size: 40px}
 #navigationMenu .home span{
+    background-color:#af1e83;
+    color:#460f35;
+    text-shadow:1px 1px 0 #d244a6;
+}
+
+/* Info Button */
+
+#navigationMenu .about { background: url("http://i.imgur.com/19zDMcz.png"); background-size: 40px}
+#navigationMenu .about:hover { background: url("http://i.imgur.com/yXx1TH5.png"); background-size: 40px}
+#navigationMenu .about span{
     background-color:#7da315;
     color:#3d4f0c;
     text-shadow:1px 1px 0 #99bf31;
-}
-
-/* Blue Button */
-
-#navigationMenu .about { background-position:-38px 0;}
-#navigationMenu .about:hover { background-position:-38px -39px;}
-#navigationMenu .about span{
-    background-color:#1e8bb4;
-    color:#223a44;
-    text-shadow:1px 1px 0 #44a8d0;
 }
 
 /* Orange Button */
@@ -107,24 +105,24 @@ html, body, p{
     text-shadow:1px 1px 0 #d28344;
 }
 
-/* Yellow Button */
+/* Portfolio Button */
 
-#navigationMenu .portfolio { background-position:-114px 0;}
-#navigationMenu .portfolio:hover{ background-position:-114px -39px;}
+#navigationMenu .portfolio { background: url("http://i.imgur.com/pTV6RE1.png"); background-size: 40px}
+#navigationMenu .portfolio:hover{ background: url("http://i.imgur.com/pgktbf0.png"); background-size: 40px}
 #navigationMenu .portfolio span{
     background-color:#d0a525;
     color:#604e18;
     text-shadow:1px 1px 0 #d8b54b;
 }
 
-/* Purple Button */
+/* Contact Button */
 
-#navigationMenu .contact { background-position:-152px 0;}
-#navigationMenu .contact:hover { background-position:-152px -39px;}
+#navigationMenu .contact { background: url("http://i.imgur.com/4kfDXja.png"); background-size: 40px}
+#navigationMenu .contact:hover { background: url("http://i.imgur.com/NxI00AK.png"); background-size: 40px}
 #navigationMenu .contact span{
-    background-color:#af1e83;
-    color:#460f35;
-    text-shadow:1px 1px 0 #d244a6;
+    background-color:#1e8bb4;
+    color:#223a44;
+    text-shadow:1px 1px 0 #44a8d0;
 }
 
 
