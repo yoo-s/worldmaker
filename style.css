@@ -99,16 +99,6 @@ html, body, p{
     text-shadow:1px 1px 0 #99bf31;
 }
 
-/* Orange Button */
-
-#navigationMenu .services { background-position:-76px 0;}
-#navigationMenu .services:hover { background-position:-76px -39px;}
-#navigationMenu .services span{
-    background-color:#c86c1f;
-    color:#5a3517;
-    text-shadow:1px 1px 0 #d28344;
-}
-
 /* Portfolio Button */
 
 #navigationMenu .portfolio { background: url("http://i.imgur.com/pTV6RE1.png"); background-size: 40px}
@@ -127,6 +117,56 @@ html, body, p{
     background-color:#1e8bb4;
     color:#223a44;
     text-shadow:1px 1px 0 #44a8d0;
+}
+
+/* Code Button */
+
+#navigationMenu .code { background: url("http://i.imgur.com/TsIgWaF.png"); background-size: 40px}
+#navigationMenu .code:hover {background: url("http://i.imgur.com/tCEL52b.png"); background-size: 40px}
+#navigationMenu .code span{
+    background-color:#af1e83;
+    color:#460f35;
+    text-shadow:1px 1px 0 #d244a6;
+}
+
+/* Art Button */
+
+#navigationMenu .art { background: url("http://i.imgur.com/oPc229w.png"); background-size: 40px}
+#navigationMenu .art:hover { background: url("http://i.imgur.com/aCC856r.png"); background-size: 40px}
+#navigationMenu .art span{
+    background-color:#7da315;
+    color:#3d4f0c;
+    text-shadow:1px 1px 0 #99bf31;
+}
+
+/* Music Button */
+
+#navigationMenu .music { background: url("http://i.imgur.com/By6d1zH.png"); background-size: 40px}
+#navigationMenu .music:hover{ background: url("http://i.imgur.com/mdjw4CN.png"); background-size: 40px}
+#navigationMenu .music span{
+    background-color:#d0a525;
+    color:#604e18;
+    text-shadow:1px 1px 0 #d8b54b;
+}
+
+/* Games Button */
+
+#navigationMenu .games { background: url("http://i.imgur.com/2JRaDKf.png"); background-size: 40px}
+#navigationMenu .games:hover { background: url("http://i.imgur.com/tXRLjdI.png"); background-size: 40px}
+#navigationMenu .games span{
+    background-color:#1e8bb4;
+    color:#223a44;
+    text-shadow:1px 1px 0 #44a8d0;
+}
+
+/* Back Button */
+
+#navigationMenu .back { background: url("http://i.imgur.com/pW5RZ0I.png"); background-size: 40px}
+#navigationMenu .back:hover {background: url("http://i.imgur.com/40PzIXN.png"); background-size: 40px}
+#navigationMenu .back span{
+    background-color:#c86c1f;
+    color:#5a3517;
+    text-shadow:1px 1px 0 #d28344;
 }
 
 
