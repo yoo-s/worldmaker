@@ -16,6 +16,10 @@ html, body, p{
     height: 100%;
 }
 
+#welcome {
+	margin-left: 60px;
+}
+
 /*minimalistic menu bar--------------------------------*/
 
 #navigationMenu ul{
